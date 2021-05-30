@@ -2,6 +2,3 @@ API file Names:
 -Kernel-level API: The API is "kernel-level" when the kernel not only provides the interfaces for the filesystems developers but is also the space in which the filesystem code resides.With modular kernels it allows adding filesystems as any kernel module, even third party ones. With non-modular kernels however it requires the kernel to be recompiled with the new filesystem code (and in closed-source kernels, this makes third party filesystem impossible).
 
 
--Driver-based API: The API is "driver-based" when the kernel provides facilities but the file system code resides totally external to the kernel (not even as a module of a modular kernel).
-It is a cleaner scheme as the filesystem code is totally independent, it allows filesystems to be created for closed-source kernels and online filesystem additions or removals from the system.
-
