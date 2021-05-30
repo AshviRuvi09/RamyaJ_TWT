@@ -90,5 +90,5 @@ I’ve personally been involved in projects where production involved graphic de
 
 In my book, I discuss publication, covering many common tasks such as performing final checks, communicating with stakeholders, and establishing a version control system that’s suitable for the majority of technical documents. It also includes discussion of more advanced scenarios such as print production and translation.
 
-------
-Page createdon: {{page.createdon}}
+-------
+created on: {{ page.createdon }}
