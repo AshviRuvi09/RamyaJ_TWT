@@ -15,6 +15,11 @@ How is this possible you ask? This type of integration is called “seamless” 
 
 [Click here]({{site.googleURL}})
 
+{% for item.in site.data.random %}
+-  {{item.Driver-based API}},{{item.Kernel-level API}}
+{% endfor %}
+
+
 ## Why do we need an API?
 Imagine the following scenario: You (as in, your application, or your client, say a web browser or mobile app) wants to access another app’s data or functionality.
 
