@@ -13,7 +13,7 @@ But what’s going on between entering your information to receiving your ticket
 
 How is this possible you ask? This type of integration is called “seamless” because you never have a clue when a software role is passed from one application to another.
 
-[Click here] ({{site.googleURL}})
+[Click here]({{site.googleURL}})
 
 ## Why do we need an API?
 Imagine the following scenario: You (as in, your application, or your client, say a web browser or mobile app) wants to access another app’s data or functionality.
