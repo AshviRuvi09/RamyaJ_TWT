@@ -2,7 +2,7 @@
 layout: API_1
 author: Camille Siegel
 ---
-#What is an API?
+# What is an API?
 API stands for Application Programming Interface. In basic terms, APIs are a set of functions and procedures that allow for the creation of applications that access data and features of other applications, services, or operating systems.
 
 ## A real-world example
@@ -12,10 +12,10 @@ But what’s going on between entering your information to receiving your ticket
 
 How is this possible you ask? This type of integration is called “seamless” because you never have a clue when a software role is passed from one application to another.
 
-##Why do we need an API?
+## Why do we need an API?
 Imagine the following scenario: You (as in, your application, or your client, say a web browser or mobile app) wants to access another app’s data or functionality.
 
 For example, perhaps you want to access all Twitter tweets that mention the #jimmychoo hashtag.
 
 ------
-Author: {{ page.author}}
+page.author: {{ page.author}}

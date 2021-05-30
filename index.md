@@ -1,5 +1,5 @@
 ---
-createdon : 30-May-2021
+createdon: 30-May-2021
 ---
 # The Technical Writing Process
 
@@ -91,4 +91,4 @@ I’ve personally been involved in projects where production involved graphic de
 In my book, I discuss publication, covering many common tasks such as performing final checks, communicating with stakeholders, and establishing a version control system that’s suitable for the majority of technical documents. It also includes discussion of more advanced scenarios such as print production and translation.
 
 -------
-created on: {{ page.createdon }}
+page.createdon: {{ page.createdon }}
