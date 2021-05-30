@@ -5,16 +5,3 @@ API file Names:
 -Driver-based API: The API is "driver-based" when the kernel provides facilities but the file system code resides totally external to the kernel (not even as a module of a modular kernel).
 It is a cleaner scheme as the filesystem code is totally independent, it allows filesystems to be created for closed-source kernels and online filesystem additions or removals from the system.
 
-
--Mixed kernel-driver-based API: In this API all filesystems are in the kernel, like in kernel-based APIs, but they are automatically trapped by another API, that is driver-based, by the OS.
-
-This scheme was used in Windows 3.1 for providing a FAT filesystem driver in 32-bit[citation needed] protected mode, and cached, (VFAT) that bypassed the DOS FAT driver in the kernel (MSDOS.SYS) completely, and later in the Windows 9x series (95, 98 and Me) for VFAT, the ISO9660 filesystem driver (along with Joliet), network shares, and third party filesystem drivers, as well as adding to the original DOS APIs the LFN API (that IFS drivers can not only intercept the already existent DOS file APIs but also add new ones from within the 32-bit protected mode executable).
-
-However that API was not completely documented, and third parties found themselves in a "make-it-by-yourself" scenario even worse than with kernel-based APIs.
-
-
--User space API : The API is in the user space when the filesystem does not directly use kernel facilities but accesses disks using high-level operating system functions and provides functions in a library that a series of utilities use to access the filesystem.
-
-This is useful for handling disk images.
-
-The advantage is that a filesystem can be made portable between operating systems as the high-level operating system functions it uses can be as common as ANSI C, but the disadvantage is that the API is unique to each application that implements one.
